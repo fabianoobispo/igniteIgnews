@@ -7,21 +7,33 @@ export function SignInButton() {
     //const [session] = useSession();
 
     //return estatico 
-    return (
+    const session = true;
+    return session ? (
         <button
         type="button"
         className={styles.SignInButton}
-        
+      
         >
         
             <FaGithub
             color="#04d361"
             />
-          Fabiano Bisopo
+            Fabiano bispo
             <FiX 
             color="#737380"
             className={styles.closeIncon}
             />
+        </button>
+    ) : (
+        <button
+        type="button"
+        className={styles.SignInButton}
+        
+        >
+            <FaGithub
+            color="#eba417"
+            />
+            Sign in with GitHub
         </button>
     );
 
