@@ -47,6 +47,3 @@ export function SubscribeButton({ priceId }: SubscribeButtonProps) {
     </button>
   );
 }
-/* function alert(message: any) {
-  throw new Error("Function not implemented.");
-} */
