@@ -8,6 +8,7 @@ export function SignInButton() {
        
    return session ? (
         <button
+        
         type="button"
         className={styles.SignInButton}
         onClick={() => signOut()}
@@ -24,6 +25,7 @@ export function SignInButton() {
         </button>
     ) : (
         <button
+        disabled={true}
         type="button"
         className={styles.SignInButton}
         onClick={() => signIn('github')}

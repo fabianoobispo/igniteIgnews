@@ -37,13 +37,20 @@ export function SubscribeButton({ priceId }: SubscribeButtonProps) {
     }
   } 
 
+    function handleFree(){
+      router.push('/posts')
+
+      return;
+    }
+
   return (
     <button
       type="button"
       className={styles.subscribeButton}
-      onClick={handleSubscribe} 
+      onClick={handleFree} 
     >
-      Subscribe now
+      {/* Subscribe now */}
+      Gratuito
     </button>
   );
 }

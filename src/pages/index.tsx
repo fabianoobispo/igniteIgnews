@@ -20,11 +20,11 @@ export default function Home({product}: HomePropos) {
       </Head>
       <main className={styles.contentContainer}>
         <section className={styles.hero}>
-          <span>👏 Hey, welcome</span>
-          <h1>News about the <span>React</span> world.</h1>
+          <span>👏 Ei, bem vindo</span>
+          <h1>Noticias e Dicas sobre o mundo <span>React.</span></h1>
           <p>
-            Get access to all the publications <br />
-            <span>for {product.amount} month</span>
+            Tenha acesso a todas as publicações <br />
+            <span>por {product.amount} mes</span>
           </p>
 
           <SubscribeButton priceId={product.priceId}/>

@@ -20,7 +20,7 @@ export function Header() {
                         <a>Posts</a>
                     </ActiveLink>
                     <ActiveLink  activeClassName={styles.active } href='/about'> 
-                        <a>About</a>
+                        <a>Sobre</a>
                     </ActiveLink>                     
                     
                    
