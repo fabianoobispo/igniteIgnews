@@ -8,7 +8,7 @@ import styles from './about.module.scss';
 export default function About() {
   const [cnpj, setCnpj] = useState('');
 
-
+/* 
   function str(valor: string){
     
 
@@ -23,7 +23,7 @@ export default function About() {
 
     
 
-  }
+  } */
   
 
 
@@ -39,10 +39,10 @@ export default function About() {
       <main className={styles.contentContainer}>
 
         <h1>Fabiano Bispo <a href='https://www.linkedin.com/in/fabiano-bispo-canedo-422738109'><AiFillLinkedin /></a> <a href='https://github.com/fabianoobispo'><AiFillGithub/></a></h1>
-        <p>Este site e para fins educativos, valores aqui cobrados são ficticios.</p>
+        <p>Este site e para fins educativos em javasCript com o framework NextJS, valores aqui exibidos são ficticios.</p>
 
         <br />
-        <input
+      {/*   <input
          maxLength={14}
      
         
@@ -53,7 +53,7 @@ export default function About() {
         <p>resultado</p>
         <input disabled={true} value={cnpj} />
 
-
+ */}
 
         
  

@@ -49,3 +49,28 @@
   
 
 }
+
+@media screen and (max-width:700px) {
+
+
+    .contentContainer {
+ 
+        margin: 0rem auto;
+        padding: 0 2rem;
+
+    
+    }
+    .posts {
+        max-width: 720rem;
+        margin: 2rem auto 0;
+
+        a{
+            strong {
+               line-height:20px
+              
+            }
+          
+        }
+    }
+    
+}
