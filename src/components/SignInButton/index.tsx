@@ -5,6 +5,8 @@ import { signIn, signOut, useSession } from 'next-auth/client'
 
 export function SignInButton() {
     const [session] = useSession();
+
+    
        
    return session ? (
         <button
@@ -25,7 +27,7 @@ export function SignInButton() {
         </button>
     ) : (
         <button
-        disabled={true}
+       /*  disabled={true} */
         type="button"
         className={styles.SignInButton}
         onClick={() => signIn('github')}
